@@ -1,0 +1,18 @@
+site_name: Mkdocs Git Committers Plugin Test
+site_url: https://github.com/byrnereese/mkdocs-git-committers-plugin
+repo_url: https://github.com/byrnereese/mkdocs-git-committers-plugin
+edit_uri: tree/master/docs
+docs_dir: docs
+
+theme:
+    name: null
+    custom_dir: 'custom_theme/'
+    
+plugins:
+  - bootstrap-tables
+  - git-committers:
+      repository: byrnereese/mkdocs-git-committers-plugin
+      branch: master
+
+nav:
+- 'Home': 'index.md'
